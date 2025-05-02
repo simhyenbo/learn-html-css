@@ -1,0 +1,19 @@
+.bootcamp {
+  background-color: #ffc;
+  ul {
+    list-style-type: circle;
+    list-style-position: inside;
+    list-style-image: url('/src/assets/thumbnail/new.png');
+  }
+  /* 단축표기법 */
+  /* list-style: circle inside; 타입을 쓰던 이미지를 쓰던 자유, 둘다쓰면 이미지가 우선*/
+}
+
+/* ol 표기법 */
+.likelion {
+  background-color: #fcf;
+
+  ol {
+    list-style: upper-roman url('/src/assets/thumbnail/new.png') outside;
+  }
+}
